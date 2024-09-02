@@ -1,0 +1,479 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.firstnav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: rgb(180, 0, 0);
+    background-color:rgb(255, 255, 255);
+}
+.firstnav .left{
+    display: flex;
+    margin-top: 11px;
+}
+.left img{
+    width: 12%;
+    position: absolute;
+    left: 40px;
+    top: -2px;
+}
+.left input{
+    margin-inline: 11px;
+    width: 600px;
+    height: 20px;
+    border:none;
+    outline: none;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 40px;
+    border-radius: 4px;
+}
+.icon{
+    position:relative ;
+    left: 145px;
+    color: rgb(63, 61, 61) ;
+}
+.firstnav .right{
+    display: flex;
+    margin-top: 14px;
+}
+.right select{
+    margin-inline: 22px;
+    font-family:monospace;
+    font-size: 22px;
+    color: rgb(79, 81, 83);
+    font-size: 90%;
+    position: relative;
+    top: -4px;
+    left: 90px;
+    border: none;
+}
+.right button{
+    margin-inline: 22px;
+    width: 65px;
+    height: 27px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(235, 91, 115);
+    color: white;   
+    position: relative;
+    left: 70px; 
+    top: -2px;
+}
+.right i{
+    color: black;
+    margin-inline: 22px;
+    font-size: 22px;
+    position: relative;
+    left: 50px;
+
+}
+.secnav{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: #f5f5f5;
+    height: 40px;
+}
+.secnav p:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+.secnav .sleft{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.secnav .sright{
+    display: flex;
+    right: 30px;
+    margin-left: 110px;
+    margin-top: 5px;
+}
+.sleft p{
+    margin-inline:25px;
+    left: 10px;
+    font:2px sans-serif;
+    font-size: small;
+}
+.sright p{
+    margin-inline: 25px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main{
+    width: 100%;
+}
+
+.container h2{
+    position: relative;    
+    left: -100px;
+    text-align:left;
+    padding: 22px;
+}
+.container .card{
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.card img{
+    width: 19.5%;
+    margin-block: 18px;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius:20px ;
+    padding: 10px;
+}
+    .movielist {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 16px;
+    }
+    #bhe {
+       position: relative;
+       left: -23px;
+    }
+    #ava{
+        position: relative;
+        left: -77px;
+    }
+    #dea{
+        position:relative;
+        left:-135px;
+    }
+    #kal{
+        position:relative;
+        left:-200px;
+
+    }
+    #kgf{
+        position: relative;
+        margin-left: 15px;
+    }
+    #bhek{
+        position: relative;
+        left: 268px;
+        top: -37px;
+    }
+    #deak{
+        position: relative;
+        left: 772px;
+        top: -120px;
+    }
+    #avak{
+        position: relative;
+        left: 528px;
+        top:-80px;
+    }
+    #kalk{
+        position: relative;
+        left: 1041px;
+        top:-160px;
+    }
+
+
+
+
+.banner img{
+    width: 100%;
+    margin-top: 10px;
+}
+.premiere{
+     background-color: rgb(43, 49, 72);
+     color: white;
+     padding: 33px;
+     margin-top: 44px;
+}
+.id{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.container .card{
+    margin-top: 10px;
+}
+#level{
+    border: 2px solid black;
+    position: absolute;
+    top: 3300px;
+    width: 1510px;
+    height: 100px;
+    background-color:  rgb(0, 0, 0);
+    color: rgb(248, 232, 232);
+  
+  }
+ #symb{
+  position: absolute;
+  left: 250px;
+  top:20px;
+ }
+ #care{
+  position: absolute;
+  left: 180px;
+  top: 60px;
+  color: rgb(148, 138, 125);
+ } 
+ #book{
+  position: absolute;
+  top: 3320px;
+  height: 100px;
+  width: 80px;
+  color: rgb(248, 232, 232);
+  left: 750px;
+ }
+ #online{
+  position: absolute;
+  left: -100px;
+  width: 450px;
+  color:  rgb(148, 138, 125);
+  top: 30px;
+ } 
+ #email{
+position: absolute;
+top: 3310px;
+left: 1200px;
+}
+#news{
+position:absolute;
+left: -50px;
+width: 350px;
+color: rgb(148, 138, 125);
+top: 45px;
+}
+#history{
+border: 1px solid black;
+position: absolute;
+top: 3380px;
+height: 950px;
+width: 1510px;
+background-color: rgb(0, 0, 0);
+}
+#show{
+position: absolute;
+left: 0px;
+top: 50px;
+color: rgba(255, 255, 255, 0.921);
+}
+#kill{
+position: absolute;
+top: 80px;
+left: 100px;
+color:grey;
+}
+#show1{
+position: absolute;
+left: 0px;
+top: 130px;
+color: rgba(255, 255, 255, 0.921);
+}
+#kill1{
+position: absolute;
+top: 160px;
+left: 100px;
+color:grey;
+}
+#show2{
+position: absolute;
+left: 0px;
+top: 200px;
+color: rgba(255, 255, 255, 0.921);
+}
+#kill2{
+position: absolute;
+top: 230px;
+left: 100px;
+color:grey;
+}
+#show3{
+position: absolute;
+left: 0px;
+top: 280px;
+color: rgba(255, 255, 255, 0.921);
+}
+#kill3{
+position: absolute;
+top: 310px;
+left: 100px;
+color:grey;
+}
+#show4{
+position: absolute;
+left: 0px;
+top: 350px;
+color: rgba(255, 255, 255, 0.921);
+}
+#kill4{
+position: absolute;
+top: 380px;
+left: 100px;
+color:grey;
+}
+#show5{
+position: absolute;
+left: 0px;
+top: 420px;
+color: rgba(255, 255, 255, 0.921);
+}
+#kill5{
+position: absolute;
+top: 450px;
+left: 100px;
+color:grey;
+}
+#show6{
+position: absolute;
+left: 0px;
+top: 490px;
+color: rgba(255, 255, 255, 0.921);
+}
+#kill6{
+position: absolute;
+top: 520px;
+left: 100px;
+color:grey;
+}
+#show7{
+position: absolute;
+left: 0px;
+top: 560px;
+color:rgba(255, 255, 255, 0.921);
+}
+#kill7{
+position: absolute;
+top: 590px;
+left: 100px;
+color:grey;
+}
+#show8{
+position: absolute;
+left: 0px;
+top: 630px;
+color: rgba(255, 255, 255, 0.921);
+}
+#kill8{
+position: absolute;
+top: 660px;
+left: 100px;
+color:grey;
+}
+#face6{
+position: absolute;
+top: 4120px;
+left: 10px;
+}
+#novalue6{
+display: inline-flex;
+position: absolute;
+left: 0px;
+}
+#face1{
+position: absolute;
+top: 4200px;
+left: 180px;
+}
+#novalue1{
+display: inline-flex;
+position: absolute;
+left: 450px;
+
+}
+#face2{
+position: absolute;
+top: 4200px;
+left: 180px;
+}
+#novalue2{
+display: inline-flex;
+position: absolute;
+left: 500px;
+}
+#face2{
+position: absolute;
+top: 4200px;
+left: 180px;
+}
+#novalue2{
+display: inline-flex;
+position: absolute;
+left: 500px;
+}
+#face3{
+position: absolute;
+top: 4200px;
+left: 180px;
+}
+#novalue3{
+display: inline-flex;
+position: absolute;
+left: 550px;
+
+}
+#face4{
+position: absolute;
+top: 4200px;
+left: 180px;
+}
+#novalue4{
+display: inline-flex;
+position: absolute;
+left: 600px;
+}
+#face5{
+position: absolute;
+top: 4200px;
+left: 180px;
+}
+#novalue5{
+display: inline-flex;
+position: absolute;
+left: 650px;
+}
+#copy{
+position: absolute;
+top: 4250px;
+left: 450px;
+color: grey;
+}
+#copy1{
+position: absolute;
+top:4270px;
+color: grey;
+}
+#copy2{
+position: absolute;
+top:4290px;
+left: 400px;
+color: grey;
+}
+#logo {
+        width: 115px;
+        margin-left: 100px;
+        margin-top: 3px;
+    }
+#beforefooter{
+    width: 1200px;
+    margin-left: 45px;
+    
+}
+#bf{
+    position: absolute;
+    left: 90px;
+    background-color: white;
+}
+#llogo{
+    position: relative;
+    top: 740px;
+    left: 600px;
+}
